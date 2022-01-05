@@ -1,0 +1,66 @@
+﻿[
+  {
+    "id": "1",
+    "name": "Environment Available to WD\r\n(Ian Maxwell)\r\n[2022-01-18]",
+    "duration": "0",
+    "start_date": "2022-01-18",
+    "end_date": "2022-01-18",
+    "trackNum": -1
+  },
+  {
+    "id": "2",
+    "name": "WD Deployment Testing\r\n(Welcom)\r\n[10 days, 2022-02-02]",
+    "duration": "10",
+    "start_date": "2022-01-19",
+    "end_date": "2022-02-02",
+    "trackNum": -1
+  },
+  {
+    "id": "3",
+    "name": "WD Code Drop\r\n(Welcom)\r\n[3 days, 2022-02-08]",
+    "duration": "3",
+    "start_date": "2022-02-03",
+    "end_date": "2022-02-08",
+    "trackNum": -1
+  },
+  {
+    "id": "4",
+    "name": "Smoke Testing\r\n(Carole Harley)\r\n[15 days, 2022-03-02]",
+    "duration": "15",
+    "start_date": "2022-02-09",
+    "end_date": "2022-03-02",
+    "trackNum": -1
+  },
+  {
+    "id": "5",
+    "name": "System Testing\r\n(Carole Harley)\r\n[20 days, 2022-03-31]",
+    "duration": "20",
+    "start_date": "2022-03-03",
+    "end_date": "2022-03-31",
+    "trackNum": -1
+  },
+  {
+    "id": "6",
+    "name": "User Acceptance Testing (including re-test)\r\n(Amanda Mills)\r\n[70 days, 2022-07-08]",
+    "duration": "70",
+    "start_date": "2022-04-01",
+    "end_date": "2022-07-08",
+    "trackNum": -1
+  },
+  {
+    "id": "7",
+    "name": "Pre-Production Activities\r\n(Craig Baille)\r\n[20 days, 2022-08-08]",
+    "duration": "20",
+    "start_date": "2022-07-11",
+    "end_date": "2022-08-08",
+    "trackNum": -1
+  },
+  {
+    "id": "8",
+    "name": "Go Live (Weekend)\r\n(ALL)\r\n[2022-08-09]",
+    "duration": "0",
+    "start_date": "2022-08-09",
+    "end_date": "2022-08-09",
+    "trackNum": -1
+  }
+]
