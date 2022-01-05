@@ -10,6 +10,7 @@ export interface ActivityData {
 export interface PlotConfig {
   margin: number;
   trackHeight: number;
+  milestoneWidth: number;
   trackGap: number;
   dayWidth: number;
   dateMin: Date;
