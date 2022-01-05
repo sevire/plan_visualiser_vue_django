@@ -3,7 +3,8 @@ import { ActivityData, PlotConfig } from "@/ts/interfaces";
 const plotConfig: PlotConfig = {
   margin: 20,
   trackHeight: 20,
-  milestoneWidth: 10,
+  milestoneWidth: 15,
+  milestoneTextGap: 10,
   trackGap: 5,
   dayWidth: 300,
   dateMin: new Date("2022-01-01"),
@@ -12,7 +13,7 @@ const plotConfig: PlotConfig = {
 
 const canvas_background = "rgb(238,234,211)";
 const activity_colour = "rgb(241,202,151)";
-const milestone_colour = "rgb(137,163,213)";
+const milestone_colour = "rgb(92,126,191)";
 const activity_text = "rgb(34,69,191)";
 
 export function drawVisual(planData: ActivityData[]): void {
@@ -125,7 +126,7 @@ function plotMilestone(
   ctx.fillStyle = activity_text;
   ctx.fillText(
     text,
-    x + config.milestoneWidth / 2 + 5,
+    x + config.milestoneWidth / 2 + config.milestoneTextGap,
     y + config.trackHeight - 5
   );
 }

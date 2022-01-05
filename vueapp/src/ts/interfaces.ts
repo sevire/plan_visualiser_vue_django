@@ -11,6 +11,7 @@ export interface PlotConfig {
   margin: number;
   trackHeight: number;
   milestoneWidth: number;
+  milestoneTextGap: number;
   trackGap: number;
   dayWidth: number;
   dateMin: Date;
