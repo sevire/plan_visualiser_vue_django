@@ -54,7 +54,7 @@ export default defineComponent({
           " trackNum type " +
           typeof activity.name
       );
-      activity.trackNum = index + 3;
+      activity.trackNum = index;
     });
     console.log("App:mounted (after)", this.plan_data);
   },

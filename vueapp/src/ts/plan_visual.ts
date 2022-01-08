@@ -124,6 +124,7 @@ function plotMilestone(
   ctx.fill();
 
   ctx.fillStyle = activity_text;
+  ctx.font = "light";
   ctx.fillText(
     text,
     x + config.milestoneWidth / 2 + config.milestoneTextGap,
